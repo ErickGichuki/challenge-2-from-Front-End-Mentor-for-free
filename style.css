@@ -1,0 +1,56 @@
+body{
+    background-color: hsl(0,0%,8%);
+    font-family: Inter;
+    font-size: 14px
+}
+.social{
+    background-color: hsl(0,0%,12%);
+    border: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 375px;
+    margin: auto;
+
+}
+img{
+    border-radius: 50%;
+    width:40%;
+    padding: 20px;
+
+}
+h1{
+    font-weight: 705;
+    
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+h1,
+button,
+p{
+    color: hsl(0,0%,100%);
+}
+p{
+    font-size: 14px;
+    margin-top: 15px;
+}
+h3{
+    color: hsl(75,94%,57%);
+    margin-top: 10px;
+    font-weight: 400;
+}
+button{
+    background-color: hsl(0,0%,20%);
+    font-weight: 600;
+    padding: 15px;
+    width: 300px;
+    border: 8px;
+    margin: 0px auto 20px auto;
+}
+button:hover{
+    background-color: hsl(75,94%,57%);
+    cursor: pointer;
+    color: black;
+}
